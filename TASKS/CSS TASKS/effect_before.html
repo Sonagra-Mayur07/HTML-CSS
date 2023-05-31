@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .x{
+            width: 150px;
+            height: 60px;
+            background-color: #E8BC5A;
+            /* border: 1px solid black; */
+            border-radius: 50px;
+            font-size: 12px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .y{
+            width: 150px;
+            height: 60px;
+            background-color:white;
+            /* border: 1px solid black; */
+            border-radius: 50px;
+            font-size: 12px;
+            text-align: center;
+            position: absolute;
+            top: 100%;
+            left: 0%;
+        transition: 0.4s;
+
+        
+        }
+        .x h1{
+            position: absolute;
+            top: 0%;
+            left: 12%;
+            z-index: 1;
+        }
+
+    .x:hover .y{
+        top: 0%;
+        transition: 0.4s;
+    }
+
+    </style>
+    </head>
+    <body>
+
+        <div class="x">
+            <h1>Read more</h1>
+            <div class="y"></div>
+        </div>
+    </body>
+</html>
