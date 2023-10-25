@@ -822,7 +822,7 @@ display: flex;
 .featured_prd_contaner .prd_big_poster{
     height: 250px;
     /* border: 2px solid red; */
-    background-image: url(../Images/1950-450-8.png);
+    background-image: url(../images/latest\(0.1\));
     background-size: 100% 100%;
     color: white;
     padding: 30px;
@@ -1091,7 +1091,7 @@ display: flex;
     height: 280px;
     /* border: 1px solid red; */
     border-radius: 5px;
-    background: url(../Images/background-10-500x500.webp);
+    background: url(../images/earring\(1\));
     background-size: cover;
     background-position: 0px -45px;
     padding: 145px 30px 0px;
@@ -1114,7 +1114,7 @@ display: flex;
     height: 220px;
     /* border: 1px solid red; */
     border-radius: 5px;
-    background: url(../Images/background-3-500x500.webp);
+    background: url(../images/earring\(2\));
     background-size: cover;
     background-position: 0px -45px;
     padding: 145px 30px 0px;
@@ -1124,7 +1124,7 @@ display: flex;
     height: 220px;
     /* border: 1px solid red; */
     border-radius: 5px;
-    background: url(../Images/background-9-500x500.webp);
+    background: url(../images/earring\(3\));
     background-size: cover;
     background-position: 0px -55px;
     padding: 145px 30px 0px;
